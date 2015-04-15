@@ -8,5 +8,5 @@ cd new-project
 Run a sqitch:
 
 ```
-docker run -itv `pwd`:/files -v ~/.sqitch/:/root/.sqitch/ biscarch/sqitch bash
+docker run -itv `pwd`:/app -v ~/.sqitch/:/root/.sqitch/ framp/sqitch init
 ```
